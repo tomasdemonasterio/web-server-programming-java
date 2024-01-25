@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="fragments/layout :: head">
+        <meta charset="UTF-8" />
+        <title>Layout</title>
+    </head>
+    <body>
+        <header th:replace="fragments/layout :: header">
+            <p>menu</p>
+        </header>
+
+        <main>
+            <section class="container">
+                <p>&nbsp;</p>
+                <h2>Hello world</h2>
+                <p>Below, here will be a Bootstrap-styled form.</p>
+            </section>
+
+            <section class="container">
+                <form th:action="@{/form}" method="POST" class="form-inline">
+                    <input type="text" name="name" class="form-control mb-2 mr-sm-2"/>
+                    <input type="submit" value="Submit!" class="btn btn-primary mb-2"/> 
+                </form>
+            </section>
+        </main>
+
+    </body>
+</html>

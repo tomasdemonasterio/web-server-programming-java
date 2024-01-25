@@ -1,0 +1,16 @@
+2024-01-15 13:23:28 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Conversión de datos fallida, convirtiendo "'test' (RESERVATION: USER_ID BIGINT)"
+Data conversion error converting "'test' (RESERVATION: USER_ID BIGINT)"; SQL statement:
+UPDATE "PUBLIC"."RESERVATION" SET "ID"=? ,"RESERVATION_FROM"=? ,"RESERVATION_TO"=? ,"USER_ID"=?  WHERE "ID"=? [22018-197]
+2024-01-15 13:23:28 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Conversión de datos fallida, convirtiendo "'test' (RESERVATION: USER_ID BIGINT)"
+Data conversion error converting "'test' (RESERVATION: USER_ID BIGINT)"; SQL statement:
+UPDATE "PUBLIC"."RESERVATION" SET "ID"=? ,"RESERVATION_FROM"=? ,"RESERVATION_TO"=? ,"USER_ID"=?  WHERE "ID"=? [22018-197]
+2024-01-15 13:23:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Conversión de datos fallida, convirtiendo "'test' (RESERVATION: USER_ID BIGINT)"
+Data conversion error converting "'test' (RESERVATION: USER_ID BIGINT)"; SQL statement:
+UPDATE "PUBLIC"."RESERVATION" SET "ID"=? ,"RESERVATION_FROM"=? ,"RESERVATION_TO"=? ,"USER_ID"=?  WHERE "ID"=? [22018-197]
+2024-01-15 13:23:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Conversión de datos fallida, convirtiendo "'test' (RESERVATION: USER_ID BIGINT)"
+Data conversion error converting "'test' (RESERVATION: USER_ID BIGINT)"; SQL statement:
+UPDATE "PUBLIC"."RESERVATION" SET "ID"=? ,"RESERVATION_FROM"=? ,"RESERVATION_TO"=? ,"USER_ID"=?  WHERE "ID"=? [22018-197]

@@ -1,0 +1,4 @@
+2024-01-09 16:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+insert into Address (id, street) values (1, '33531 Portage Point') [42102-197]

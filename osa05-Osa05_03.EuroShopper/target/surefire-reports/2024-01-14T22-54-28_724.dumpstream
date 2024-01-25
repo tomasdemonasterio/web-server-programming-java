@@ -1,0 +1,15 @@
+# Created at 2024-01-14T22:54:38.403
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2024-01-14T22:54:38.404
+WARNING: Illegal reflective access by org.springframework.util.ReflectionUtils (file:/C:/Users/set/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar) to method java.util.HashMap$Node.getKey()
+
+# Created at 2024-01-14T22:54:38.405
+WARNING: Please consider reporting this to the maintainers of org.springframework.util.ReflectionUtils
+
+# Created at 2024-01-14T22:54:38.406
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2024-01-14T22:54:38.406
+WARNING: All illegal access operations will be denied in a future release
+

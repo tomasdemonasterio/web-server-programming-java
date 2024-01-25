@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: hiddenfields.FieldsTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.865 s - in hiddenfields.FieldsTest
