@@ -23,12 +23,14 @@ public class RegistrationController {
     public String view() {
         return "form";
     }
-
+    
     @PostMapping("/registrations")
     public String register(
-            @ModelAttribute Registration registration,
+            @Valid @ModelAttribute Registration registration,
             BindingResult bindingResult) {
-
+        if (bindingResult.hasErrors()) {
+            return "form";
+        }
         registrationRepository.save(registration);
         return "redirect:/success";
     }

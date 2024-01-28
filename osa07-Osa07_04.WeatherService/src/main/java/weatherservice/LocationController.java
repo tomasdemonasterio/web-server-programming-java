@@ -12,24 +12,29 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class LocationController {
 
     @Autowired
-    private LocationRepository locationRepository;
-
+    private LocationService locationService;
 
     @GetMapping("/locations")
     public String list(Model model) {
-model.addAttribute("locations", locationRepository.findAll());
+        model.addAttribute("locations", locationService.getLocations());
         return "locations";
     }
-
+    
     @GetMapping("/locations/{id}")
     public String view(Model model, @PathVariable Long id) {
-model.addAttribute("location", locationRepository.getOne(id));
+        model.addAttribute("location", locationService.getLocation(id));
         return "location";
     }
-
+    
     @PostMapping("/locations")
     public String add(@ModelAttribute Location location) {
-        locationRepository.save(location);
+        locationService.addLocation(location);
         return "redirect:/locations";
+    }
+    
+    @GetMapping("/flushcaches")
+    public String flushCache() {
+        locationService.flushCache();
+        return "redirect:/";
     }
 }

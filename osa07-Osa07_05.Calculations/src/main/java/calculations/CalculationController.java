@@ -33,9 +33,8 @@ public class CalculationController {
     @PostMapping("/calculations")
     public String create(RedirectAttributes redirectAttributes,
             @ModelAttribute Calculation calculation) {
-
-        calculation = calculationService.process(calculation);
-
+        calculationService.create(calculation);
+        calculationService.process(calculation);
         
         // käytännössä sama kuin 
         // return "redirect:/calculations/ + calculation.getId();

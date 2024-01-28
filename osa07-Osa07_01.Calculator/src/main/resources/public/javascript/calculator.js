@@ -13,3 +13,11 @@ function plus() {
 function kerto() {
     asetaTulos(haeNumero("eka") * haeNumero("toka"));
 }
+
+function minus() {
+    asetaTulos(haeNumero("eka") - haeNumero("toka"));
+}
+
+function divide() {
+    asetaTulos(haeNumero("eka") / haeNumero("toka"));
+}
